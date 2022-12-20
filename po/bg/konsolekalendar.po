@@ -1,0 +1,730 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Zlatko Popov <zlatkopopov@fsa-bg.org>, 2006, 2007.
+# Yasen Pramatarov <yasen@lindeas.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: konsolekalendar\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-08-13 01:42+0000\n"
+"PO-Revision-Date: 2013-08-05 13:45+0300\n"
+"Last-Translator: Yasen Pramatarov <yasen@lindeas.com>\n"
+"Language-Team: Bulgarian <dict@ludost.net>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Златко Попов"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zlatkopopov@fsa-bg.org"
+
+#: konsolekalendar.cpp:84
+#, kde-format
+msgid "There are no calendars available."
+msgstr ""
+
+#: konsolekalendar.cpp:99
+#, kde-format
+msgid "(Read only)"
+msgstr ""
+
+#: konsolekalendar.cpp:149
+#, fuzzy, kde-format
+#| msgid "Create Calendar &lt;Dry Run&gt;: %1"
+msgid "Create Calendar <Dry Run>: %1"
+msgstr "Създаване на календар (без отчет): %1"
+
+#: konsolekalendar.cpp:155
+#, fuzzy, kde-format
+#| msgid "Create Calendar &lt;Verbose&gt;: %1"
+msgid "Create Calendar <Verbose>: %1"
+msgstr "Създаване на календар (с отчет): %1"
+
+#: konsolekalendar.cpp:174
+#, fuzzy, kde-format
+#| msgid "View Events &lt;Dry Run&gt;:"
+msgid "View Events <Dry Run>:"
+msgstr "Преглед на събития (без отчет):"
+
+#: konsolekalendar.cpp:196
+#, fuzzy, kde-format
+#| msgid "Insert Event <Verbose>:"
+msgid "View Event <Verbose>:"
+msgstr "Вмъкване на събитие (с отчет):"
+
+#: konsolekalendar.cpp:268
+#, kde-format
+msgid "Sorry, export to HTML by UID is not supported yet"
+msgstr ""
+"Експортиране към формат HTML по номер на събитие (UID) все още не се поддържа"
+
+#: konsolekalendar.cpp:289
+#, kde-format
+msgid "Events:"
+msgstr "Събития:"
+
+#: konsolekalendar.cpp:293
+#, kde-format
+msgid "Events: %1"
+msgstr "Събития: %1"
+
+#: konsolekalendar.cpp:295
+#, kde-format
+msgid "Events: %1 - %2"
+msgstr "Събития: %1 - %2"
+
+#: konsolekalendar.cpp:435 konsolekalendaradd.cpp:178
+#: konsolekalendarchange.cpp:118 konsolekalendarchange.cpp:134
+#: konsolekalendardelete.cpp:84
+#, kde-format
+msgid "  What:  %1"
+msgstr "  Какво: %1"
+
+#: konsolekalendar.cpp:437 konsolekalendaradd.cpp:180
+#: konsolekalendarchange.cpp:121 konsolekalendarchange.cpp:136
+#: konsolekalendardelete.cpp:87
+#, kde-format
+msgid "  Begin: %1"
+msgstr "  Начало: %1"
+
+#: konsolekalendar.cpp:439 konsolekalendaradd.cpp:182
+#: konsolekalendarchange.cpp:123 konsolekalendarchange.cpp:138
+#: konsolekalendardelete.cpp:89
+#, kde-format
+msgid "  End:   %1"
+msgstr "  Край: %1"
+
+#: konsolekalendar.cpp:442 konsolekalendaradd.cpp:185
+#, kde-format
+msgid "  No Time Associated with Event"
+msgstr "  Не зададено време към събитието"
+
+#: konsolekalendar.cpp:445 konsolekalendaradd.cpp:188
+#: konsolekalendarchange.cpp:125 konsolekalendarchange.cpp:140
+#: konsolekalendardelete.cpp:91
+#, kde-format
+msgid "  Desc:  %1"
+msgstr "  Описание: %1"
+
+#: konsolekalendar.cpp:447 konsolekalendaradd.cpp:190
+#: konsolekalendarchange.cpp:127 konsolekalendarchange.cpp:142
+#: konsolekalendardelete.cpp:93
+#, kde-format
+msgid "  Location:  %1"
+msgstr "  Местоположение: %1"
+
+#: konsolekalendaradd.cpp:64
+#, kde-format
+msgid "Insert Event <Dry Run>:"
+msgstr "Вмъкване на събитие (без отчет):"
+
+#: konsolekalendaradd.cpp:68
+#, kde-format
+msgid "Insert Event <Verbose>:"
+msgstr "Вмъкване на събитие (с отчет):"
+
+#: konsolekalendaradd.cpp:96 konsolekalendaradd.cpp:136
+#, kde-format
+msgid "Calendar is invalid. Please specify one with --calendar"
+msgstr ""
+
+#: konsolekalendaradd.cpp:107
+#, kde-format
+msgid "Success: \"%1\" inserted"
+msgstr "Успех: събитието \"%1\" е вмъкнато"
+
+#: konsolekalendaradd.cpp:109
+#, kde-format
+msgid "Failure: \"%1\" not inserted"
+msgstr "Грешка: събитието \"%1\" не е вмъкнато"
+
+#: konsolekalendaradd.cpp:150
+#, kde-format
+msgid "Insert Event skipped, because UID \"%1\" is already known. <Verbose>"
+msgstr ""
+
+#: konsolekalendaradd.cpp:157
+#, kde-format
+msgid "Add Event with UID \"%1\". <Verbose>"
+msgstr ""
+
+#: konsolekalendarchange.cpp:52
+#, fuzzy, kde-format
+#| msgid "Insert Event <Dry Run>:"
+msgid "Change Event <Dry Run>:"
+msgstr "Вмъкване на събитие (без отчет):"
+
+#: konsolekalendarchange.cpp:55 konsolekalendarchange.cpp:64
+#, fuzzy, kde-format
+#| msgid "Insert Event <Dry Run>:"
+msgid "To Event <Dry Run>:"
+msgstr "Вмъкване на събитие (без отчет):"
+
+#: konsolekalendarchange.cpp:61
+#, fuzzy, kde-format
+#| msgid "Insert Event <Verbose>:"
+msgid "Change Event <Verbose>:"
+msgstr "Вмъкване на събитие (с отчет):"
+
+#: konsolekalendarchange.cpp:103
+#, kde-format
+msgid "Success: \"%1\" changed"
+msgstr "Успех: събитието \"%1\" е променено"
+
+#: konsolekalendarchange.cpp:105
+#, kde-format
+msgid "Failure: \"%1\" not changed"
+msgstr "Грешка: събитието \"%1\" не е променено"
+
+#: konsolekalendarchange.cpp:116 konsolekalendarchange.cpp:132
+#: konsolekalendardelete.cpp:82
+#, kde-format
+msgid "  UID:   %1"
+msgstr "  Код: %1"
+
+#: konsolekalendardelete.cpp:50
+#, fuzzy, kde-format
+#| msgid "Insert Event <Dry Run>:"
+msgid "Delete Event <Dry Run>:"
+msgstr "Вмъкване на събитие (без отчет):"
+
+#: konsolekalendardelete.cpp:56
+#, fuzzy, kde-format
+#| msgid "Insert Event <Verbose>:"
+msgid "Delete Event <Verbose>:"
+msgstr "Вмъкване на събитие (с отчет):"
+
+#: konsolekalendardelete.cpp:69
+#, kde-format
+msgid "Success: \"%1\" deleted"
+msgstr "Успех: събитието \"%1\" е изтрито"
+
+#: konsolekalendardelete.cpp:71
+#, kde-format
+msgid "Error deleting: \"%1\""
+msgstr ""
+
+#: konsolekalendarexports.cpp:62
+#, kde-format
+msgid "Date:"
+msgstr "Дата:"
+
+#: konsolekalendarexports.cpp:71
+#, kde-format
+msgid "Summary:"
+msgstr "Обобщение:"
+
+#: konsolekalendarexports.cpp:75
+#, kde-format
+msgid "(no summary available)"
+msgstr "(няма обобщение)"
+
+#: konsolekalendarexports.cpp:79
+#, kde-format
+msgid "Location:"
+msgstr "Местоположение:"
+
+#: konsolekalendarexports.cpp:83
+#, kde-format
+msgid "(no location available)"
+msgstr "(няма местоположение)"
+
+#: konsolekalendarexports.cpp:87
+#, kde-format
+msgid "Description:"
+msgstr "Описание:"
+
+#: konsolekalendarexports.cpp:91
+#, kde-format
+msgid "(no description available)"
+msgstr "(няма описание)"
+
+#: konsolekalendarexports.cpp:95
+#, kde-format
+msgid "UID:"
+msgstr "Код:"
+
+#: konsolekalendarexports.cpp:123
+#, kde-format
+msgid "[all day]\t"
+msgstr "[целия ден]\t"
+
+#: konsolekalendarexports.cpp:174
+#, kde-format
+msgid ","
+msgstr ","
+
+#: konsolekalendarexports.cpp:175
+#, kde-format
+msgid "\""
+msgstr "\""
+
+#: main.cpp:60
+#, kde-format
+msgid "KonsoleKalendar"
+msgstr ""
+
+#: main.cpp:62
+#, kde-format
+msgid "A command line interface to KDE calendars"
+msgstr ""
+
+#: main.cpp:64
+#, kde-format
+msgid "(c) 2002-2009, Tuukka Pasanen and Allen Winter"
+msgstr "(c) 2002-2009, Tuukka Pasanen и Allen Winter"
+
+#: main.cpp:66
+#, kde-format
+msgid "Laurent Montel"
+msgstr ""
+
+#: main.cpp:66
+#, kde-format
+msgid "Bug fixing"
+msgstr ""
+
+#: main.cpp:67
+#, kde-format
+msgid "Allen Winter"
+msgstr "Allen Winter"
+
+#: main.cpp:67
+#, kde-format
+msgid "Maintainer"
+msgstr "Поддръжка"
+
+#: main.cpp:68
+#, kde-format
+msgid "Tuukka Pasanen"
+msgstr "Tuukka Pasanen"
+
+#: main.cpp:68
+#, kde-format
+msgid "Author"
+msgstr "Автор"
+
+#: main.cpp:74
+#, kde-format
+msgid "Print helpful runtime messages"
+msgstr "Печат на съобщения за отчет на действията по време на изпълнение"
+
+#: main.cpp:75
+#, kde-format
+msgid "Print what would have been done, but do not execute"
+msgstr "Печат на това, което трябва да се направи, но без изпълнение"
+
+#: main.cpp:76
+#, kde-format
+msgid "Allow calendars which might need an interactive user interface"
+msgstr "Позволяване на календари, които може да са интерактивни"
+
+#: main.cpp:77
+#, fuzzy, kde-format
+#| msgid "  Operate for Events only (Default)"
+msgid "Operate for Events only (Default)"
+msgstr "  Обработка на събитията само (по подразбиране)"
+
+#: main.cpp:78
+#, fuzzy, kde-format
+#| msgid "  Operate for To-dos only [NOT WORKING YET]"
+msgid "Operate for To-dos only [NOT WORKING YET]"
+msgstr "  Обработка на задачите само (НЕ РАБОТИ ВСЕ ОЩЕ)"
+
+#: main.cpp:79
+#, fuzzy, kde-format
+#| msgid "  Operate for Journals only [NOT WORKING YET]"
+msgid "Operate for Journals only [NOT WORKING YET]"
+msgstr "  Обработка на дневника само (НЕ РАБОТИ ВСЕ ОЩЕ)"
+
+#: main.cpp:80
+#, fuzzy, kde-format
+#| msgid "  Print incidences in specified export format"
+msgid "Print incidences in specified export format"
+msgstr "  Печат на записите в зададен формат"
+
+#: main.cpp:81
+#, fuzzy, kde-format
+#| msgid "  Insert an incidence into the calendar"
+msgid "Insert an incidence into the calendar"
+msgstr "  Вмъкване на нов запис в календара"
+
+#: main.cpp:82
+#, fuzzy, kde-format
+#| msgid "  Modify an existing incidence"
+msgid "Modify an existing incidence"
+msgstr "  Промяна на съществуващ запис"
+
+#: main.cpp:83
+#, fuzzy, kde-format
+#| msgid "  Remove an existing incidence"
+msgid "Remove an existing incidence"
+msgstr "  Изтриване на съществуващ запис"
+
+#: main.cpp:84
+#, kde-format
+msgid "Create new Akonadi Resource for file"
+msgstr ""
+
+#: main.cpp:86
+#, fuzzy, kde-format
+#| msgid "  Import this calendar to main calendar"
+msgid "Import this calendar to main calendar"
+msgstr "  Импортиране на календара в главния календар"
+
+#: main.cpp:87
+#, kde-format
+msgid "List available calendars"
+msgstr ""
+
+#: main.cpp:88
+#, fuzzy, kde-format
+#| msgid "  View all calendar entries, ignoring date/time options"
+msgid "View all calendar entries, ignoring date/time options"
+msgstr "  Показване на всички записи в календара, независимо от дата и час"
+
+#: main.cpp:89
+#, fuzzy, kde-format
+#| msgid "  View next activity in calendar"
+msgid "View next activity in calendar"
+msgstr "  Показване на следващото събитие в календара"
+
+#: main.cpp:91
+#, fuzzy, kde-format
+#| msgid "  From start date show next # days' activities"
+msgid "From start date show next # days' activities"
+msgstr "  Показване на събитията за зададените дни от зададената дата"
+
+#: main.cpp:92
+#, fuzzy, kde-format
+#| msgid "  Incidence Unique-string identifier"
+msgid "Incidence Unique-string identifier"
+msgstr "  Уникален идентификатор на запис"
+
+#: main.cpp:93
+#, fuzzy, kde-format
+#| msgid "  Start from this day [YYYY-MM-DD]"
+msgid "Start from this day [YYYY-MM-DD]"
+msgstr "  От дата (ГГГГ-ММ-ДД)"
+
+#: main.cpp:94
+#, fuzzy, kde-format
+#| msgid "  Start from this time [HH:MM:SS]"
+msgid "Start from this time [HH:MM:SS]"
+msgstr "  От час (ЧЧ:ММ:СС)"
+
+#: main.cpp:95
+#, fuzzy, kde-format
+#| msgid "  End at this day [YYYY-MM-DD]"
+msgid "End at this day [YYYY-MM-DD]"
+msgstr "  До дата (ГГГГ-ММ-ДД)"
+
+#: main.cpp:96
+#, fuzzy, kde-format
+#| msgid "  End at this time [HH:MM:SS]"
+msgid "End at this time [HH:MM:SS]"
+msgstr "  До час (ЧЧ:ММ:СС)"
+
+#: main.cpp:98
+#, fuzzy, kde-format
+#| msgid " Start from this time [secs since epoch]"
+msgid "Start from this time [secs since epoch]"
+msgstr "  От дата и час (секунди от началото на епохата)"
+
+#: main.cpp:100
+#, fuzzy, kde-format
+#| msgid "  End at this time [secs since epoch]"
+msgid "End at this time [secs since epoch]"
+msgstr "  До дата и час (секунди от началото на епохата)"
+
+#: main.cpp:102
+#, fuzzy, kde-format
+#| msgid "  Add summary to incidence (for add/change modes)"
+msgid "Add summary to incidence (for add/change modes)"
+msgstr "  Добавяне на обобщение към записа (при добавяне/промяна)"
+
+#: main.cpp:104
+#, kde-format
+msgid "Add description to incidence (for add/change modes)"
+msgstr "Добавяне на описание към записа (при добавяне/промяна)"
+
+#: main.cpp:107
+#, fuzzy, kde-format
+#| msgid "  Add location to incidence (for add/change modes)"
+msgid "Add location to incidence (for add/change modes)"
+msgstr "  Добавяне на местоположение към записа (при добавяне/промяна)"
+
+#: main.cpp:110
+#, kde-format
+msgid "Calendar to use when creating a new incidence"
+msgstr ""
+
+#: main.cpp:113
+#, kde-format
+msgid "Export file type (Default: text)"
+msgstr "Тип файл за експортиране (стандартно: текстов)"
+
+#: main.cpp:115
+#, kde-format
+msgid "Export to file (Default: stdout)"
+msgstr "Експортиране във файл (стандартно: стандартен изход)"
+
+#: main.cpp:116
+#, fuzzy, kde-format
+#| msgid "  Print list of export types supported and exit"
+msgid "Print list of export types supported and exit"
+msgstr "  Печат на поддържаните типове файлове за експортиране и изход"
+
+#: main.cpp:165
+#, kde-format
+msgid "%1 supports these export formats:"
+msgstr "%1 поддържа следните формати за експортиране:"
+
+#: main.cpp:166
+#, kde-format
+msgctxt "the default export format"
+msgid "  %1 [Default]"
+msgstr "  %1 [по подразбиране]"
+
+#: main.cpp:167
+#, kde-format
+msgctxt "short text export"
+msgid "  %1 (like %2, but more compact)"
+msgstr "  %1 (като %2, но по-компактен)"
+
+#: main.cpp:168
+#, kde-format
+msgctxt "HTML export"
+msgid "  %1"
+msgstr "  %1"
+
+#: main.cpp:169
+#, kde-format
+msgctxt "HTMLmonth export"
+msgid "  %1 (like %2, but in a month view)"
+msgstr "  %1 (като %2, но в месечен изглед)"
+
+#: main.cpp:171
+#, kde-format
+msgctxt "comma-separated values export"
+msgid "  %1 (Comma-Separated Values)"
+msgstr "  %1 (данни, разделени със запетайка)"
+
+#: main.cpp:186
+#, kde-format
+msgid "Sorry, To-dos are not working yet."
+msgstr "Задачите не работят все още."
+
+#: main.cpp:192
+#, kde-format
+msgid "Sorry, Journals are not working yet."
+msgstr "Дневника не работи все още."
+
+#: main.cpp:224
+#, kde-format
+msgid "Invalid Export Type Specified: %1"
+msgstr "Невалиден формат за експортиране: %1"
+
+#: main.cpp:383
+#, kde-format
+msgid "Invalid Start Date Specified: %1"
+msgstr "Невалидна начална дата: %1"
+
+#: main.cpp:408
+#, kde-format
+msgid "Invalid Start Time Specified: %1"
+msgstr "Невалиден начален час: %1"
+
+#: main.cpp:433
+#, kde-format
+msgid "Invalid End Date Specified: %1"
+msgstr "Невалидна крайна дата: %1"
+
+#: main.cpp:453
+#, kde-format
+msgid "Invalid Date Count Specified: %1"
+msgstr "Невалиден интервал от време: %1"
+
+#: main.cpp:481
+#, kde-format
+msgid "Invalid End Time Specified: %1"
+msgstr "Невалиден краен час: %1"
+
+#: main.cpp:673
+#, kde-format
+msgid ""
+"Only 1 operation mode (view, add, change, delete, create) permitted at any "
+"one time"
+msgstr "Не може да изпълнявате две или повече операции заедно"
+
+#: main.cpp:684
+#, kde-format
+msgid "Ending Date/Time occurs before the Starting Date/Time"
+msgstr "Крайната дата (или час) са преди началната дата (или час)"
+
+#: main.cpp:703
+#, kde-format
+msgid "Calendar %1 successfully imported"
+msgstr "Календарът %1 е импортиран успешно"
+
+#: main.cpp:706
+#, kde-format
+msgid "Unable to import calendar: %1"
+msgstr "Грешка при импортиране на календар: %1"
+
+#: main.cpp:717
+#, kde-format
+msgid "Attempting to insert an event that already exists"
+msgstr "Опит за добавяне на вече съществуващо събитие"
+
+#: main.cpp:727 main.cpp:747
+#, kde-format
+msgid "Missing event UID: use --uid command line option"
+msgstr "Липсващ код на събитие: използвайте параметъра --uid"
+
+#: main.cpp:735
+#, kde-format
+msgid "No such event UID: change event failed"
+msgstr "Липсващ код на събитие: промяната се провали"
+
+#: main.cpp:755
+#, kde-format
+msgid "No such event UID: delete event failed"
+msgstr "Липсващ код на събитие: изтриването се провали"
+
+#: main.cpp:766
+#, kde-format
+msgid "Cannot open specified export file: %1"
+msgstr "Не може да бъде отворен файлът за експортиране: %1"
+
+#: main.cpp:776
+#, kde-format
+msgid "Cannot create Akonadi resource from file: %1"
+msgstr ""
+
+#~ msgid "Incidence types (these options can be combined):"
+#~ msgstr "Обхват на типовете (параметрите могат да бъдат комбинирани):"
+
+#~ msgid "Major operation modes:"
+#~ msgstr "Главни режими на работа:"
+
+#~ msgid "Operation modifiers:"
+#~ msgstr "Параметри на операцията:"
+
+#~ msgid "Export options:"
+#~ msgstr "Параметри на експортирането:"
+
+#, fuzzy
+#~| msgid ""
+#~| "Examples:\n"
+#~| "  konsolekalendar --view\n"
+#~| "  konsolekalendar --add --date 2003-06-04 --time 10:00 --end-time 12:00 "
+#~| "\\\n"
+#~| "                  --summary \"Doctor Visit\" --description \"Get My Head "
+#~| "Examined\"\n"
+#~| "  konsolekalendar --delete --uid KOrganizer-1740326.803"
+#~ msgid ""
+#~ "Examples:\n"
+#~ "  konsolekalendar --view\n"
+#~ "  konsolekalendar --list-calendars\n"
+#~ "  konsolekalendar --add --calendar 42 --date 2016-12-04 --time 10:00 --"
+#~ "end-time 12:00 \\\n"
+#~ "                  --summary \"Doctor Visit\" --description \"Get My Head "
+#~ "Examined\"\n"
+#~ "  konsolekalendar --delete --uid KOrganizer-1740326.803"
+#~ msgstr ""
+#~ "Примери:\n"
+#~ "  konsolekalendar --view\n"
+#~ "  konsolekalendar --add --date 2003-06-04 --time 10:00 --end-time 12:00 "
+#~ "\\\n"
+#~ "                  --summary \"Посещение при доктора\" --description "
+#~ "\"Преглед на главата ми\"\n"
+#~ "  konsolekalendar --delete --uid KOrganizer-1740326.803"
+
+#, fuzzy
+#~| msgid ""
+#~| "For more information visit the program home page at:\n"
+#~| "  http://pim.kde.org/components/konsolekalendar.php"
+#~ msgid ""
+#~ "For more information visit the program home page at:\n"
+#~ "  https://userbase.kde.org/KonsoleKalendar"
+#~ msgstr ""
+#~ "За повече информация посетете уеб страницата на програмата:\n"
+#~ "  http://pim.kde.org/components/konsolekalendar.php"
+
+#~ msgid "  Create new calendar file if one does not exist"
+#~ msgstr "  Създаване на нов календар, ако зададения не съществува"
+
+#~ msgid "View Event &lt;Verbose&gt;:"
+#~ msgstr "Преглед на събития (с отчет):"
+
+#~ msgid "Insert Event &lt;Dry Run&gt;:"
+#~ msgstr "Добавяне на събитие (без отчет):"
+
+#~ msgid "Insert Event &lt;Verbose&gt;:"
+#~ msgstr "Добавяне на събитие (с отчет):"
+
+#~ msgid "Change Event &lt;Dry Run&gt;:"
+#~ msgstr "Промяна на събитие (без отчет):"
+
+#~ msgid "To Event &lt;Dry Run&gt;:"
+#~ msgstr "Към събитие (без отчет):"
+
+#~ msgid "Change Event &lt;Verbose&gt;:"
+#~ msgstr "Промяна на събитие (с отчет):"
+
+#~ msgid "Delete Event &lt;Dry Run&gt;:"
+#~ msgstr "Изтриване на събитие (без отчет):"
+
+#~ msgid "Delete Event &lt;Verbose&gt;:"
+#~ msgstr "Изтриване на събитие (с отчет):"
+
+#~ msgid "Specify which calendar you want to use"
+#~ msgstr "Календар за използване"
+
+#~ msgid "Attempting to create a remote file %1"
+#~ msgstr "Опит за създаване на отдалечен файл %1"
+
+#~ msgid "Calendar %1 already exists"
+#~ msgstr "Вече има календар %1"
+
+#~ msgid "Calendar %1 successfully created"
+#~ msgstr "Календарът %1 е създаден успешно"
+
+#~ msgid "Unable to create calendar: %1"
+#~ msgstr "Грешка при създаване на календар: %1"
+
+#~ msgid "Calendar file not found %1"
+#~ msgstr "Календарният файл не е намерен: %1"
+
+#~ msgid "Try --create to create new calendar file"
+#~ msgstr "Опитайте --create, за да създадете нов календарен файл"
+
+#~ msgid "Active Calendar"
+#~ msgstr "Активен календар"
+
+#~ msgid "Default Calendar"
+#~ msgstr "Календар по подразбиране"
+
+#~ msgid "Primary Author"
+#~ msgstr "Primary Author"
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "Радостин Раднев"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr "radnev@yahoo.com"

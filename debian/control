@@ -1,0 +1,38 @@
+Source: akonadi-calendar-tools
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Michael Meskes <meskes@debian.org>,
+           Norbert Preining <norbert@preining.info>,
+           Sandro Knauß <hefee@debian.org>,
+           Sune Vuorela <sune@debian.org>,
+Build-Depends: cmake (>= 3.16~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.83.0~),
+               gettext,
+               libkf5akonadi-dev (>= 4:21.08.1~),
+               libkf5akonadicalendar-dev (>= 4:21.08.1~),
+               libkf5calendarcore-dev (>= 5:5.68.1~),
+               libkf5calendarsupport-dev (>= 4:21.08.1~),
+               libkf5calendarutils-dev,
+               libkf5doctools-dev (>= 5.83.0~),
+               libkf5i18n-dev (>= 5.83.0~),
+               libkf5libkdepim-dev (>= 4:20.04.1~),
+               pkg-config,
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.15.0~),
+Standards-Version: 4.6.0
+Homepage: https://invent.kde.org/pim/akonadi-calendar-tools
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/akonadi-calendar-tools
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/akonadi-calendar-tools.git
+Rules-Requires-Root: no
+
+Package: konsolekalendar
+Architecture: any
+Depends: kdepim-runtime [amd64 arm64 armhf i386 mipsel],
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: konsole personal organizer
+ KonsoleKalendar is a command-line interface to KDE calendars.
+ KonsoleKalendar complements KOrganizer by providing a console
+ frontend to manage your calendars.
